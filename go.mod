@@ -2,7 +2,11 @@ module test_package
 
 go 1.21.3
 
-require github.com/Leakageonthelamp/go-leakage-core v1.2.0
+require (
+	github.com/Leakageonthelamp/go-leakage-core v1.2.0
+	github.com/labstack/echo v3.3.10+incompatible
+	github.com/labstack/echo/v4 v4.11.2
+)
 
 require (
 	github.com/DATA-DOG/go-sqlmock v1.5.0 // indirect
@@ -51,7 +55,6 @@ require (
 	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/klauspost/compress v1.17.0 // indirect
 	github.com/klauspost/pgzip v1.2.5 // indirect
-	github.com/labstack/echo/v4 v4.11.2 // indirect
 	github.com/labstack/gommon v0.4.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
